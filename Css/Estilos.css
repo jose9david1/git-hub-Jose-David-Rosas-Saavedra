@@ -1,0 +1,99 @@
+*{margin: 0;
+padding: 0;}
+
+h1{color: white; 
+margin-left: 30px;    
+padding-top: 60px;
+padding-bottom: 60px;
+font-family: ont-family: 'Dancing Script', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Mochiy Pop P One', sans-serif;}
+
+
+
+header{background-color: darkturquoise;}
+
+ul li{display: inline-block;
+width: 80px;
+padding: 10px 20px;
+background-color: darksalmon;
+position: relative;left: 620px;
+text-align: center;
+font-family: font-family: 'Dancing Script', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+/*header*/
+
+/*menu*/
+li a{color: white; 
+text-decoration: none;
+}
+
+
+li :hover{background-color:darksalmon;
+color:white;}
+
+
+h3{text-align: center;margin-top: 2%; 
+margin-bottom: 10%;
+}
+/*FinDeMenu*/
+
+.padregrid { display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+    margin: 20px;
+    
+}
+
+article {background-color: chartreuse;
+    width: 300px; height: 300px; 
+}
+
+/*PaginaSomos*/
+.seccionsomos{margin-top: 3%;
+margin-bottom: 3%;
+position:relative;
+left: 35%;
+}
+.somos2{padding: 50px;
+margin-left: 15px;}
+/*tienda*/
+
+
+/*PaginaContactos*/
+form{margin-left: 4%;
+margin-top: 2%;
+margin-bottom: 10%;}
+/*footer*/
+
+
+footer{grid-area: footer; 
+    justify-content: space-around;
+    background-image: linear-gradient(darkturquoise, pink);
+    
+}
+p{text-align: center;}
+.facebook{height: 50px;
+    padding: 30px; 
+    position: relative; left: 900px;
+}
+.instagram{height: 50px;
+    padding: 30px; position: relative; 
+    left: 900px;
+    
+}
+.whatsapp{height: 50px; 
+    padding: 30px; position: relative;
+    left: 900px;
+    
+}
+h2{margin-left: 30px;}
+h6{text-align: center;}
+.direccion{margin-left: 30px; margin-top: 15px;
+text-align: left;}
+.horario{margin-left: 30px; margin-top: 15px;
+    text-align: left;}
+
