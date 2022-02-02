@@ -7,11 +7,31 @@ padding-top: 60px;
 padding-bottom: 60px;
 font-family: ont-family: 'Dancing Script', cursive;
 font-family: 'Kaushan Script', cursive;
-font-family: 'Mochiy Pop P One', sans-serif;}
+font-family: 'Mochiy Pop P One', sans-serif;
+animation-duration: 3s;
+animation-name:aparecer;
+animation-interation-count:infinity;
 
+}
 
+@keyframes aparecer{0%
+{
+    opacity: 0;
+} 100% {
+    opacity: 1;
+}
+}
 
-header{background-color: darkturquoise;}
+header{background-image: linear-gradient(darkturquoise, pink);
+}
+
+ul{
+    height: 100px;
+    transition: 2s;
+}
+
+ul:hover {height: 200px;
+background-color: cyan;}
 
 ul li{display: inline-block;
 width: 80px;
@@ -22,6 +42,7 @@ text-align: center;
 font-family: font-family: 'Dancing Script', cursive;
 font-family: 'Kaushan Script', cursive;
 font-family: 'Mochiy Pop P One', sans-serif;
+
 }
 
 /*header*/
